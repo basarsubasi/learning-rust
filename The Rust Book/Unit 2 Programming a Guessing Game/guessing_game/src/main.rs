@@ -1,6 +1,6 @@
-use core::num;
-use std::{cmp::Ordering, io::{self, stdin}};
-use rand::{thread_rng, Rng};
+
+use std::{cmp::Ordering, io::{self}};
+use rand:: Rng;
 
 fn main() {
 
