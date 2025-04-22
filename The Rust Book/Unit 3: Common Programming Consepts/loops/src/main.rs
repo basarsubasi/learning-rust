@@ -43,6 +43,35 @@ fn main() {
 
     }
 
-    println!("end count = {count}")
+   // println!("end count = {count}");
+
+
+
+   // while loop without a while keyword
+
+   let mut mycount:i32 = 0;
+
+   let mut limit:i32 = 10;
+
+
+    loop { 
+
+
+        if limit == 0 {
+            break;}
+
+        else {
+             println!("{mycount}");
+            
+            
+             mycount += 1;
+
+             limit -= 1;
+                        }
+
+
+
+
+    };
 
 }
